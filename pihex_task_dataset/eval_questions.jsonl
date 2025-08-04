@@ -1,0 +1,6 @@
+{"question": "What are the rate limits on Pro and do 429s include retry hints?", "expected_category": "api", "expected_contains": ["60 req/min", "Retry-After"]}
+{"question": "How does PiHex handle PII and training on my data?", "expected_category": "security", "expected_contains": ["PII redaction", "not used for model training"]}
+{"question": "What's the overage cost for tokens and vector ops?", "expected_category": "pricing", "expected_contains": ["\u20b90.25 / 1K", "\u20b90.10 / 1K"]}
+{"question": "Can answers include citations/snippets? How do I enable that?", "expected_category": "support", "expected_contains": ["return_sources=true", "snippets"]}
+{"question": "How do I guarantee valid JSON outputs from the extract endpoint?", "expected_category": "api", "expected_contains": ["strict_schema"]}
+{"question": "We need data residency in India. Is that available?", "expected_category": "security", "expected_contains": ["region", "in"]}
